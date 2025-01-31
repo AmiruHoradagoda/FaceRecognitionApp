@@ -1,0 +1,32 @@
+# Ignore training data directory
+train_faceRecognition/data/
+
+# Virtual environment
+facerecognition_flask/Lib/
+facerecognition_flask/Scripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
