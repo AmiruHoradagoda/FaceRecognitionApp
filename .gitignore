@@ -1,5 +1,7 @@
 # Ignore training data directory
 train_faceRecognition/data/
+# Ignore training crop_data directory
+train_faceRecognition/crop_data/
 
 # Virtual environment
 facerecognition_flask/Lib/
