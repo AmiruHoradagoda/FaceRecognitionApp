@@ -12,9 +12,12 @@ model_pca = pca_models['pca']
 mean_face_arr = pca_models['mean_face'] #Mean Face
 
 
-def faceRecognitionPipeline(filename):
-    # step-01: read image
-    img = cv2.imread(filename) # BGR
+def faceRecognitionPipeline(filename,path=True):
+    if path:
+        # step-01: read image
+        img = cv2.imread(filename) # BGR
+    else:
+        img = filename
     # step-02: convert into gray scale
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     # step-03: crop the face (using haar cascase classifier)
