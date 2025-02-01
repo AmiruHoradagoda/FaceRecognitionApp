@@ -3,6 +3,8 @@ train_faceRecognition/data/
 # Ignore training crop_data directory
 train_faceRecognition/crop_data/
 
+train_faceRecognition/model/pca_dict.pkl
+
 # Virtual environment
 facerecognition_flask/Lib/
 facerecognition_flask/Scripts/
