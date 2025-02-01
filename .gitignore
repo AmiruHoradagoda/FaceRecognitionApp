@@ -2,6 +2,7 @@
 train_faceRecognition/data/
 # Ignore training crop_data directory
 train_faceRecognition/crop_data/
+train_faceRecognition/test_images/
 # Ignore all pickle files
 *.pkl
 
